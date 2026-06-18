@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { api } from '../utils/api';
-import './Login.css';
+import './login.css';
 
 const COOLDOWN_SEC = 120; // 2 minutes
 

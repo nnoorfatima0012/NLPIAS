@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { api } from '../utils/api';
-import './Login.css';
+import './login.css';
 
 export default function ForgotPassword() {
   const nav = useNavigate();

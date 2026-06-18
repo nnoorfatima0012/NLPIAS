@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { useNavigate, Link } from "react-router-dom";
 import { api } from "../utils/api";
 import { useAuth } from "../context/authContext";
-import "./Login.css";
+import "./login.css";
 import GoogleAuthButton from "../components/GoogleAuthButton";
 const LoginSchema = Yup.object().shape({
   email: Yup.string().email("Invalid email").required("Email is required"),

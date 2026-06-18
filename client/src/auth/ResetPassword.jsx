@@ -2,7 +2,7 @@
 import { useMemo, useState } from 'react';
 import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { api } from '../utils/api';
-import './Login.css';
+import './login.css';
 
 /**
  * Layout wrapper for all reset-password content.

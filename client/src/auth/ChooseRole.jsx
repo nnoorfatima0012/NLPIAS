@@ -2,7 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { api } from "../utils/api";
 import { useAuth } from "../context/authContext";
-import "./Login.css";
+import "./login.css";
 
 export default function ChooseRole() {
   const nav = useNavigate();

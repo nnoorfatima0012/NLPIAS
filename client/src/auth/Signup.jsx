@@ -6,7 +6,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { api } from "../utils/api";
 import { useAuth } from "../context/authContext";
 import GoogleAuthButton from "../components/GoogleAuthButton";
-import "./Signup.css";
+import "./signup.css";
 
 const SignupSchema = Yup.object().shape({
   name: Yup.string().min(2, "Too Short!").required("Name is required"),
