@@ -1,0 +1,48 @@
+# Python
+venv/
+.venv/
+nlp-service/venv/
+server/venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+nlp-service/.env
+nlp-service/.env.*
+
+# But allow examples
+!.env.example
+!client/.env.example
+!server/.env.example
+!nlp-service/.env.example
+
+# Build outputs
+dist/
+build/
+client/dist/
+
+# Uploads
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
