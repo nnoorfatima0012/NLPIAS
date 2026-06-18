@@ -32,7 +32,7 @@ import RecruiterProfile from './pages/Recruiter/Profile';
 import RecruiterOnboarding from './pages/Recruiter/RecruiterOnboarding';
 import RecruiterPending from './pages/Recruiter/RecruiterPending';
 import RecruiterDeclined from './pages/Recruiter/RecruiterDeclined';
-import JobDetails from './pages/Recruiter/JobDetails';
+import JobDetails from './pages/Recruiter/jobDetails';
 
 // Candidate Pages
 import CandidateDashboard from './pages/Candidate/Dashboard';
