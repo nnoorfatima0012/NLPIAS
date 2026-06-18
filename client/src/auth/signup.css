@@ -1,5 +1,5 @@
 /* Just reuse the login styles for layout so everything matches */
-@import url("./Login.css");
+@import url("./login.css");
 
 /* Hide browser default password reveal eye / clear button */
 input[type="password"]::-ms-reveal,
