@@ -1,6 +1,6 @@
 // server/controllers/mockInterviewController.js
 const mongoose = require("mongoose");
-const MockSession = require("../models/MockSessionModel");
+const MockSession = require("../models/mockSessionModel");
 const {
   generateMockQuestions,
   evaluateMockAnswer,
